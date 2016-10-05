@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+<link rel="icon" type="image/png" href="images/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="images/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/splash/apple-touch-icon-57x57.png">  
+<link rel="icon" type="image/png" href="images/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="images/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" /> 
+    
+<title>Home - Excel app</title>
+
+<link href="styles/style.css"           rel="stylesheet" type="text/css">
+<link href="styles/framework.css"       rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"    rel="stylesheet" type="text/css">
+<link href="styles/animate.css"         rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework-plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body class="dual-sidebar"> 
+
+<div id="preloader">
+	<div id="status">
+        <div class="preloader-logo"></div>
+        <h3 class="center-text">Bem vindo</h3>
+        <p class="center-text smaller-text">
+            Estamos carregando este conteúdo, espere um segundo. Isso não vai demorar muito!
+        </p>
+    </div>
+</div>
+    
+<div class="gallery-fix"></div> <!-- Important for all pages that have galleries or portfolios -->
+    
+<div id="header-fixed">
+    <a class="open-left-sidebar" href="#"><i class="fa fa-navicon"></i></a>
+    <a class="header-logo" href="#"><img src="images/logo-light.png" alt="img"></a>
+</div>    
+            
+<div class="all-elements">
+    <div class="snap-drawers">
+        <div class="snap-drawer snap-drawer-left">        
+            <div class="sidebar-header">
+                <a class="close-sidebar" href="#"><i class="fa fa-times"></i></a>
+            </div>   
+            
+            <div class="sidebar-logo">
+                <img src="images/logo-sidebar.png" alt="img">
+            </div>
+        
+            <p class="sidebar-divider">Menu</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="home.html">
+                    <i class="fa fa-home"></i>
+                    <em>Home</em>
+                    <i class="fa fa-circle"></i>
+                </a>                     
+                <a class="menu-item" href="#">
+                    <i class="fa fa-pencil"></i>
+                    <em>Usuarios</em>
+                    <i class="fa fa-circle"></i>
+                </a>                 
+                <a class="menu-item" href="page-map.html">
+                    <i class="fa fa-map-marker"></i>
+                    <em>Status Pagamento</em>
+                    <i class="fa fa-circle"></i>
+                </a>                               
+            </div>
+            <p class="sidebar-footer">Copyright 2015. Robots</p>
+            
+        </div>       
+        
+        
+        <div id="content" class="snap-content">
+            <div class="content">
+            <div class="header-clear-large"></div>
+            <!--Page content goes here, fixed elements go above the all elements class-->
+                
+                <div class="container heading-style-5">
+                    <h4 class="heading-title">Home</h4>
+                    <i class="fa fa-th heading-icon"></i>
+                    <div class="line bg-black"></div>
+                    <p class="heading-subtitle">
+                        Bem vindo ao seu painel remoto, abaixo alguns menus rapidos!
+                    </p>
+                </div> 
+                
+                <div class="decoration"></div>
+                
+                <div class="thumbnail-menu">
+                    
+                    <a href="#" class="simple-login-modal">
+                        <img class="preload-image responsive-image full-bottom" data-original="" alt="img">
+                        <i class="bg-red-dark fa fa-search"></i>
+                        <em>Pesquisar</em>
+                    </a>
+                        <div class="simple-login-modal-content modal-content rounded-modal">
+                            <div class="login-modal-wrapper">
+                                <h4>Pesquisar</h4>
+                                <input type="text" class="login-modal-user" id="pesquisar" value="" onFocus="if(this.value=='Escreva aqui')this.value='';">
+                                <input type="submit" class="button-green login-button" value="Pesquisar">
+
+                                <a href="#" class="button-red login-close modal-close">Fechar</a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    
+                    
+                    
+                    
+                    <a href="index.html">
+                        <i class="bg-red-dark fa fa-users"></i>
+                        <em>Cooperados</em>
+                    </a>                    
+                    <a href="features-typography.html">
+                        <i class="bg-green-dark bg-hover-green-dark fa fa-money"></i>
+                        <em>Pagamentos</em>
+                    </a>                    
+                    <a href="portfolio-one.html">
+                        <i class="bg-blue-dark fa fa-check"></i>
+                        <em>Status Pag</em>
+                    </a>                    
+ 
+                    <a href="pageapp-coverpage.html">
+                        <i class="bg-yellow-dark fa fa-power-off"></i>
+                        <em>Sair</em>
+                    </a>
+
+                </div>
+                
+                <div class="decoration"></div>
+                
+                <div class="footer">
+                    <p class="center-text">Copyright 2015. Todos os direitos reservados.</p>
+                </div>
+                                
+                
+                
+            <!-- End of entire page content-->
+            </div> 
+        </div>
+    </div>  
+    <a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Voltar ao top</a>
+</div>    
+    
+</body>
